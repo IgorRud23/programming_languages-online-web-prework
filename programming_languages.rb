@@ -43,5 +43,3 @@ new_hash.each do |language, val|
 end
 new_hash
 end
-
-reformat_languages(languages)
