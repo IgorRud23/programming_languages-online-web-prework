@@ -32,7 +32,7 @@ languages = {
 
 def reformat_languages(language_hash)
   h = {}
-languages.each do |k, v| # oo or func
+language_hash.each do |k, v| # oo or func
   puts "k=#{k}, v=#{v}"
   v.each do |k1, v1| # ruby/python
     puts "  k1=#{k1}, v1=#{v1}"
