@@ -32,8 +32,8 @@ languages = {
 
 def reformat_languages(language_hash)
   h = {}
-  languages.each do |k, v| # oo or func
-      v.each do |k1, v1| # ruby/python
+  languages.each do |k, v|
+      v.each do |k1, v1|
           if h[k1]
               h[k1][:style] << k
           else
